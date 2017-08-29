@@ -7,6 +7,13 @@ import Landing from './Landing';
 import Dashboard from './Dashboard';
 import SurveyNew from './surveys/SurveyNew';
 
+// TODO
+// Design improvements
+// Delete action
+// Survey text input and 'from' field for user
+// Client side sorting
+// Draft mode for survey creation
+
 class App extends Component {
 	componentDidMount() {
 		this.props.fetchUser();
